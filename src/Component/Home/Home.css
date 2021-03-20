@@ -1,0 +1,28 @@
+.home-design{
+    
+        background-color: rgb(23, 23, 71);
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+       align-items: center;
+      
+}
+
+.main-header{
+    background: url('../../Photo/Rectangle\ 28.png');
+    height: 250px;
+   position: relative;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.colorLayer{
+    background-color: rgba(7, 4, 44, 0.883);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
