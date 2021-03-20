@@ -4,13 +4,12 @@ import { Button, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import {exploreLeague} from "../SinglePage/SinglePage";
 
 
 
 const LeagueCard = (props) => {
 
-    const { idLeague, strLeague, strLeagueAlternate, strSport } = props.data;
+    const { idLeague, strLeague, strSport } = props.data;
 
         const [league, setLeague] = useState({})
 

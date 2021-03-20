@@ -18,7 +18,7 @@ const SinglePage = () => {
     const { idLeague } = useParams();
 
     const [league, setLeague] = useState({});
-    const { strBadge,strYoutube, strLeague, strLeagueAlternate, strTwitter, strSport, strFacebook, strGender, strDescriptionEN, strCountry, intFormedYear, dateFirstEvent, strDescriptionFR } = league;
+    const { strBadge,strYoutube, strLeague, strTwitter, strSport, strFacebook, strGender, strDescriptionEN, strCountry, intFormedYear, strDescriptionFR } = league;
 
     useEffect(() => {
 
